@@ -4,6 +4,7 @@
 * [First Chapter](chapter1.md)
 * [Domains and HTTPS](domains-and-https.md)
   * [What is a domain?](what-is-a-domain.md)
+  * [Purchasing a domain](purchasing-a-domain.md)
 
 
 
