@@ -5,7 +5,7 @@
 * [Domains and HTTPS](domains-and-https.md)
   * [What is a domain?](what-is-a-domain.md)
   * [Purchasing a domain](purchasing-a-domain.md)
-  * Changing the Authoritative name servers
+  * [Changing the Authoritative name servers](changing-the-authoritative-name-servers.md)
 
 
 
