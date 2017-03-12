@@ -1,3 +1,10 @@
-# My Awesome Book
+# REST APIs with Flask and Python
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Learn about REST APIs using Flask and Python.
+
+Start at the beginning, and go all the way to authentication, database interactions \(with SQLAlchemy\), deployments, security, performance, and more.
+
+This book goes along with the course at [https://www.udemy.com/rest-api-flask-and-python/](https://www.udemy.com/rest-api-flask-and-python/)
+
+**Note**: the book doesn't contain the entire course at the moment.
+
