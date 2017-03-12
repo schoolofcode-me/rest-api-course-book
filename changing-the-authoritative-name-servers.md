@@ -34,9 +34,22 @@ Our nameservers have been automatically set up by Namecheap, but we can change t
 
 Log in to Namecheap, and you should see your domain list. Here, go to the domain management section:
 
+![](/assets/domain-list.png)
 
+Then, in the nameservers section, go from "Namecheap BasicDNS" to "Custom DNS":
 
+![](/assets/changing-namecheap-dns.png)
 
+And there, add the two nameservers that CloudFlare advises:
 
-Then, 
+* `beth.ns.cloudflare.com`  and
+* `justin.ns.cloudflare.com`
+
+Just as in the image below:
+
+![](/assets/setting-cloudflare-authoritative-nameservers.png)
+
+Go back to CloudFlare and press **Continue**. Within a few minutes to a few hours, our nameservers will change.
+
+Every now and then we can press the **"Recheck Nameservers"** button to know when this has happened.
 
