@@ -32,13 +32,13 @@ We can ask the root servers what the IP address of `http://example.com` is, but 
 
 Then, we go to the TLD servers and ask for the address of `http://example.com`. Chances are they won't know either, but they may know what DNS servers are registered to know the IP address. These are `example.com`'s DNS servers.
 
-Finally, we will make a third request to the Authoritative name servers. These are the servers which do know the IP address. They can give us the IP address, and finally our browser can make the request to the correct location on the internet.
+Finally, we will make a third request to the Authoritative nameservers. These are the servers which do know the IP address. They can give us the IP address, and finally our browser can make the request to the correct location on the internet.
 
 To recap:
 
 1. The root servers know what the `.com` DNS servers are \(these are TLD name servers\);
-2. The TLD servers know what the `example.com` DNS servers are \(these are Authoritative name servers\);
-3. The Authoritative name servers know what the IP address of `example.com` is.
+2. The TLD servers know what the `example.com` DNS servers are \(these are Authoritative nameservers\);
+3. The Authoritative nameservers know what the IP address of `example.com` is.
 
 
 
