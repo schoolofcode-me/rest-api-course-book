@@ -42,3 +42,16 @@ server {
 
 What that does is listen on port 80, and rewrite the URL to the `https` protocol. The `$1` appends at the end of the domain name whatever users requested. For example, `$1` could be `/stores`.
 
+### Restart nginx
+
+Finally, reload and restart nginx to apply the changes.
+
+```bash
+sudo systemctl reload nginx
+sudo systemctl restart nginx
+```
+
+### Verify it all works
+
+Access your `https` site or API using Postman. It should all work!
+
