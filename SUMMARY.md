@@ -8,4 +8,5 @@
   * [Changing the Authoritative name servers](domains-and-https/changing-the-authoritative-name-servers.md)
   * [Modifying our DNS records](domains-and-https/modifying-our-dns-records.md)
 * [Getting an SSL certificate](domains-and-https/getting-an-ssl-certificate.md)
+* [Serving HTTPS traffic with nginx](serving-https-traffic-with-nginx.md)
 
