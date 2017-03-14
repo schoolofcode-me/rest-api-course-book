@@ -10,9 +10,7 @@ Leaving everything as the default, press **Next**.
 
 You should then see a screen as the below:
 
-&lt;&gt;
-
-These are the SSL certificate key and pem files, which the server needs to enable HTTPS.
+![](/assets/Screen Shot 2017-03-14 at 20.35.14.png)These are the SSL certificate key and pem files, which the server needs to enable HTTPS.
 
 ## Copying the files into the server
 
@@ -20,10 +18,10 @@ Log in to your DigitalOcean server via SSH. This can be done as we have already 
 
 Here, I will create two files. Make sure to replace the domain name for your own:
 
-* `/var/www/ssl/rest-api-course-trial.com.key` ; and
-* `/var/www/ssl/rest-api-course-trial.com.pem`.
+* `/var/www/ssl/rest-api-course-trial.com.pem` ; and
+* `/var/www/ssl/rest-api-course-trial.com.key`.
 
-In each, paste the corresponding text from the CloudFlare SSL certificate generation window.
+In each, paste the corresponding text from the CloudFlare SSL certificate generation window. In the `.pem` file paste the **Origin Certificate** field contents, and in the `.key` file paste the **Private Key** field contents.
 
 Voilà! You have an active, signed SSL certificate in your server!
 

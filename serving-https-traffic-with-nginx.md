@@ -15,10 +15,16 @@ And we are going to change then to this:
 ```nginx
 listen 443 default_server;
 
-server_name rest-api-course-trial.com
+server_name rest-api-course-trial.com;
+
+ssl on;
+ssl_certificate /var/www/ssl/rest-api-course-trial.com.pem;
+ssl_certificate_key /var/www/ssl/rest-api-course-trial.com.key;
 ```
 
 We want to change the `listen` because `http` traffic accesses our server on port 80, but `https` traffic uses port 443.
+
+The other fields tell nginx to use SSL, and the locations of the certificate and key.
 
 ### HTTPS rewrites
 
