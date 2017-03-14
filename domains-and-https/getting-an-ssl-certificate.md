@@ -14,7 +14,7 @@ You should then see a screen as the below:
 
 ## Copying the files into the server
 
-Log in to your DigitalOcean server via SSH. This can be done as we have already seen, using a console window or via the DigitalOcean control panel.
+Log in to your DigitalOcean server via SSH. This can be done as we have already seen, using a console window, or via the DigitalOcean control panel.
 
 Here, I will create two files. Make sure to replace the domain name for your own:
 
